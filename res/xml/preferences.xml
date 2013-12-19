@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@android:style/Theme.Black" >
+
+    <PreferenceCategory android:title="SOS Contact Information" >
+
+        <!--
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:summary="This preference can be true or false"
+            android:title="Checkbox Preference" >
+        </CheckBoxPreference>
+        -->
+
+        <Preference
+            android:key="sosContactNumber"
+            android:summary="Number"
+            android:title="SOS Contact Number" />
+
+     
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Message" >
+      
+        <EditTextPreference
+            android:name="ok Message"
+            android:key="okMessageText"
+            android:summary="I'm ok"
+            android:title="OK Message" />
+        
+          <EditTextPreference
+            android:name="sos Message"
+            android:key="sosMessageText"
+            android:summary="SOS"
+            android:title="SOS Message" />
+
+        <!--
+        <RingtonePreference
+            android:name="Ringtone Preference"
+            android:key="ringtonePref"
+            android:summary="Select a ringtone"
+            android:title="Ringtones" />
+
+        <PreferenceScreen
+            android:key="SecondPrefScreen"
+            android:summary="This is a second PreferenceScreen"
+            android:title="Second PreferenceScreen" >
+            <EditTextPreference
+                android:name="An other EditText Preference"
+                android:key="SecondEditTextPref"
+                android:summary="This is a preference in the second PreferenceScreen"
+                android:title="Edit text" />
+        </PreferenceScreen>
+        -->
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Timers Definitions" >
+        <ListPreference
+            android:entries="@array/settings_time_human_value"
+            android:entryValues="@array/settings_time_phone_value"
+            android:key="timer_interval"
+            android:summary="time"
+            android:title="time interval between location updates" >
+        </ListPreference>
+
+         <!-- <Preference
+            android:key="timePicker"
+            android:title="Duration" />
+          -->
+         
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS de localização</string>
+    <string name="action_settings">Definições</string>
+    <string name="hello_world">olá mundo</string>
+    <string name="title_activity_start">InicioActividade</string>
+    <string name="title_activity_sos">SOSActividade</string>
+    <string name="smsText">Longitude: , Latitude: . Ajuda por favor! Google Maps: http://maps.google.com/maps?z=18&amp;q=lat,long</string>
+
+    <string-array name="settings_time_human_value">
+        <item>deactivate</item>
+        <item>1 min</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+    <string-array name="settings_time_phone_value">
+        <item>0</item>
+        <item>30</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>2700</item>
+        <item>3600</item>
+    </string-array>
+
+    <string name="about">Sobre nós</string>
+    <string name="settings">Definições</string>
+    <string name="help">Ajuda</string>
+    <string name="warning">AVISO: Tem de ter o GPS ligado!</string>
+    <string name="start">Inicio</string>
+    <string name="start1">O botão inicio leva-o ao menu onde você define:</string>
+    <string name="time">Tempo Max</string>
+    <string name="time1">Tempo total que envia mensagens.</string>
+    <string name="sms">Tempo de SMS</string>
+    <string name="sms1">Tempo entre mensagens</string>
+    <string name="Contact">Contacto</string>
+    <string name="Contact1">Para quem a mensagem é enviada</string>
+    <string name="Contact2">Depois de definir estes parâmetros, a aplicação começa a funcionar.</string>
+    <string name="sos">SOS</string>
+    <string name="sos1">O botão de SOS leva a uma pré-visualização da mensagem e ao número para o qual a mensagem será enviada.</string>
+    <string name="sos2">Altera o contacto para quem a mensagem é enviada</string>
+    <string name="sos3">Envia mensagem para o numero pré definido</string>
+    <string name="Settings">Definições</string>
+    <string name="Settings1">Pode pré definir estes parametros:</string>
+    <string name="Settings2">Contacto\nCorpo da mensagem(opcional)\nTempo de SMS</string>
+    <string name="dev">Desenvolvido no</string>
+    <string name="by">por</string>
+    <string name="Version">Versão</string>
+    <string name="set">Def Tempo max</string>
+    <string name="set2">Def tempo SMS</string>
+    <string name="phone">Numero telefone</string>
+    <string name="Time4">Tempo:</string>
+    <string name="position">Ultima Posição</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="End">Fim</string>
+    <string name="nconnected">(não) Conectado</string>
+   
+
+</resources>
